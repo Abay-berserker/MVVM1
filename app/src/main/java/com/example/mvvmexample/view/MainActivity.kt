@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         button.setOnClickListener {
-            viewModel.updateText("Updated Text")
+            viewModel.updateText("Обновленный текст")
         }
     }
 }
